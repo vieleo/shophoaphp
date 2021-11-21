@@ -1,0 +1,20 @@
+.send_feedback {
+    width: 50%;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    margin-left: 9%;
+    float: left;
+}
+h2 {
+    margin-left: -158px;
+    line-height: 10px;
+    margin-top: 13%;
+}
+.contact {
+    margin-top: -65px;
+}
+h2.tieu_de {
+    color: red;
+    text-align: center;
+    margin-right: 43px;
+}

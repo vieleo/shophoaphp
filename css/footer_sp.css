@@ -1,0 +1,37 @@
+footer.wrapper_footer {
+    background-color: black;
+    margin-top: -13px;
+}
+.khau_hieu {
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 27px;
+}
+.icon_lienhe {
+    margin-left: 46%;
+    font-size: 18px;
+}
+.content_one {
+    margin-left: -72%;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+.conten_two {
+    margin-left: -34%;
+    text-align: center;
+    margin-top: -244px;
+}
+.content_three {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -255px;
+}
+.bando {
+    margin-left: 68%;
+    margin-top: -170px;
+}
+.text-center.p-4 {
+    text-align: center;
+    margin-top: 60px;
+}

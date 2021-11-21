@@ -1,0 +1,368 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+    
+    height: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper_chitiet {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 50%;
+}
+.chitiet_sanpham {
+    float: left;
+    width: 49%;
+    margin-left: -72px;
+    margin-top: -22px;
+}
+.lienhe_giaodich {
+    background: blanchedalmond;
+    font-weight: 700;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.header{
+	border: 1px solid #ff6666;
+	height: 299px;
+	width: 100%;
+	background: #ff6666;
+
+}
+a.icon_style {
+    color: black;
+}
+.menu {
+    height: 70px;
+    width: 1022px;
+    background: #fff;
+    margin-left: 260px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0.5em 1.5rem rgb(0 0 1 / 10%);
+}
+ul.list_menu {
+    padding: 0;
+    width: 77%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+    margin-left: 129px;
+    padding-top: 9px;
+    font-size: large;
+}
+ul.list_menu li{
+	float: left;
+	margin: 7px;
+	padding: 5px;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+ul.list_menu li a:hover{
+	color: red;
+}
+/*
+ul.list_menu li:hover{
+	background: burlywood ;
+}*/
+#main{
+	height: 400px;
+	width: 100%;
+    padding-top: 122px;
+}
+.sidebar {
+    height: 390px;
+    width: 14%;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: fixed;
+    float: left;
+}
+ul.list_sidebar{
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	list-style: none;
+	bord
+	line-height: 27px;
+
+}
+ul.list_sidebar li{
+	float: left;
+	margin: 4px;
+	/*padding: 5px;*/
+	width: 156%;
+}
+ul.list_sidebar li a{
+	text-decoration: none;
+	text-align: left;
+	color: 	 black;
+	display: block;
+    height: 27px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    background: bisque;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0 0.3rem indianred;
+    
+}
+ul.list_sidebar li a:hover{
+	color: #ff6600;
+    background: aquamarine;
+}
+ul.list_sidebar li:hover{
+	/*background: burlywood ;*/
+}
+.maincontent {
+    height: 960px;
+    width: 73.58%;
+    float: right;
+    margin: auto;
+    position: absolute;
+    margin-left: 294px;
+    margin-top: 0px;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+ul.product_list li {
+    width: 26%;
+    border: 1px solid;
+    margin: 5px;
+    height: 387px;
+    background-color: #fff;
+    float: left;
+    list-style: none;
+    border-radius: 18px;
+}
+ul.product_list img {
+    width: 294px;
+    height: 100%;
+}
+ul.product_list button:hover {
+    background: cyan;
+}
+ul.product_list li a {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 25%;
+    margin-left: 8px;
+    line-height: 17px;
+    margin-top: -13px;
+    font-size: 14px;
+
+}
+.footer {
+    border: 1px solid;
+    height: 278px;
+    width: 100%;
+    background: aqua;
+    margin-left: 0px;
+}
+p.footer_copyright {
+    text-align: center;
+    font-weight: bold;
+}
+.clear{
+	clear: both;
+}
+.icon_buy {
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 66px;
+    padding-top: 14px;
+    text-align: center;
+    background: #fff;
+    border-radius: 100px;
+    font-size: 34px;
+    box-shadow: 0 0.5em 1.5rem rgb(0 0 1 / 10%);
+    width: 57px;
+    height: 45px;
+}
+.anh_nhan img {
+    width: 431px;
+    margin-left: 253px;
+}
+p.title_product {
+    text-align: center;
+    margin-top: 28px;
+    width: 58%;
+    height: 28px;
+    padding-top: 5px;
+    font-size: 17px;
+    margin-left: 48px;
+    background: aliceblue;
+    border-radius: 100px;
+    white-space: nowrap;
+    width: 189px;
+    
+    overflow: hidden;
+    text-overflow: clip;
+}
+p.price_product {
+    font-size: large;
+    margin-left: 59px;
+    color: red;
+}
+.icon_buy:hover {
+    background: #ff4d4d;
+    color: #fff;
+}
+ul.product_list img {
+    margin-top: -0.1px;
+    border-radius: 16px;
+}
+input.search_tk {
+   font-size: 17px;
+    position: absolute;
+    border-radius: 43px;
+    font-weight: 700;
+    background: lightblue;
+    margin-left: -41px;
+    border: none;
+    margin-top: -5px;
+    height: 39px;
+}
+input.form_tk {
+    font-size: 15px;
+    border-radius: 20px;
+    width: 226px;
+    border: none;
+    background: #e6e6e6;
+    height: 38px;
+    margin-top: -6px;
+}
+form.tim_kiem {
+    position: absolute;
+    margin-left: 721px;
+    margin-top: -5px;
+}
+/*
+input:hover.search_tk {
+    background: red;
+    color: #fff;
+    border: blanchedalmond;
+}
+input:hover.form_tk {
+    border: 3px solid red;
+}*/
+div#menu_top {
+    background: azure;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 98px;
+}
+li.zalo {
+    list-style: none;
+    width: 104px;
+    background: #66ff33;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 31px;
+    padding-top: 1px;
+}
+li.facebook {
+    list-style: none;
+    width: 137px;
+    margin-top: 5px;
+    background: #6666ff;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding-top: 3px;
+    font-size: 17px;
+}
+li.hotline {
+    list-style: none;
+    width: 190px;
+    margin-top: 5px;
+    background: #ff0066;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding-top: 3px;
+    font-size: 17px;
+}
+.contact {
+    position: fixed;
+    top: 77.5%;
+    z-index: 20;
+    left: -1%;
+}
+li:hover.zalo {
+    background: red;
+}
+li.zalo a:hover {
+    color: #fff;
+}
+li:hover.facebook {
+    background: red;
+}
+li.facebook a:hover {
+    color: #fff;
+}
+li:hover.hotline {
+    background: red;
+}
+li.hotline a:hover {
+    color: #fff;
+}
+
+
+/* Tabs */
+.tabs {
+  width: 100%;
+  background-color: #09F;
+  border-radius: 5px 5px 5px 5px;
+}
+ul#tabs-nav {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  overflow: auto;
+}
+ul#tabs-nav li {
+  float: left;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 8px 10px;
+  border-radius: 5px 5px 5px 5px;
+  /*border: 1px solid #d5d5de;
+  border-bottom: none;*/
+  cursor: pointer;
+}
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+  background-color: #08E;
+}
+#tabs-nav li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.tab-content {
+  padding: 10px;
+  border: 5px solid #09F;
+  background-color: #FFF;
+}
+

@@ -1,0 +1,1 @@
+<h2><i>Cảm ơn quý khách đã mua hàng. Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất!!!</i></h2>
