@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost:3307","root","","web_cnpm");
+$mysqli = new mysqli("localhost","root","","web_cnpm");
 
 // Check connection
 if ($mysqli->connect_errno) {

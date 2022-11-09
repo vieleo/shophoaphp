@@ -22,10 +22,11 @@
                 //ĐÓNG kết nối
                 $connect -> close();
         if($data != null && count($data) > 0)
-        {
+        { 
+            $_SESSION['dangnhap']= $email;
             header("Location:admincp/sanpham.php");
         }elseif($password != "") {
-                echo '<h2 style="color:red; text-align:center; position: absolute; background : rgba(255, 255, 255)" >Tài khoản hoặc mật khẩu không đúng!</h2>';
+                echo '<h2 style="color:#fff;margin-left: 33%; text-align:center; position: absolute;" >Tài khoản hoặc mật khẩu không đúng!</h2>';
         }
     }
 }

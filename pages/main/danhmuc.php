@@ -1,3 +1,4 @@
+<div class="show_sp" style=" height:1500px;">
 <?php 
 	if (isset($_GET['trang'])) {
 		$page = $_GET['trang'];
@@ -22,7 +23,7 @@
    $row_title=mysqli_fetch_array($query_cate);
 ?>
 <div id="danh_muc_sp">
-<h1 style="margin-left: 351px; font-size: revert;margin-bottom: 1px;"><?php echo $row_title['tendanhmuc']?></h1>
+<h1 style="margin-left: 379px; font-size: revert;margin-bottom: 1px;"><?php echo $row_title['tendanhmuc']?></h1>
 <div class="hoa_dm">
 		<img src="img/hoa/flower_string.png" style="width: 384px; margin-left: 258px;">
 </div>
@@ -42,7 +43,7 @@
 	   	    				<p style="color: black;font-size:17px" class="title_product" title="<?php echo $row_pro['tensanpham']?>">
 	   	    					
 	   	    				 <?php echo $row_pro['tensanpham']?></p>
-	   	    				<p class="price_product" style="margin-left:70px">Giá: <?php echo number_format($row_pro['giasanpham']).' VNĐ'?>  </p>
+	   	    				<p class="price_product" style="margin-left:57px">Giá: <?php echo number_format($row_pro['giasanpham']).' VNĐ'?>  </p>
 	   	    			</a>
 	   	    		</li>
 	   	    		<?php 
@@ -93,3 +94,9 @@
 	   	    		?>
 
 	   	    	</ul>
+<div class="row_sp col-lg-12 col-md-4" style="width: 139%;margin-left: -307px;padding-top: 120px;">
+                <?php
+                include('pages/footer_sp.php');
+                ?>
+</div>
+</div>

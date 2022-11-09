@@ -2,17 +2,18 @@
 $sql_lietke_dh="SELECT * FROM tbl_cart,tbl_dangky WHERE tbl_cart.id_khachhang=tbl_dangky.id_dangky ORDER BY tbl_cart.id_cart DESC";
 $query_lietke_dh=mysqli_query($mysqli,$sql_lietke_dh);
 ?>
-<p>Liệt kê danh sách đơn hàng</p>
-<table style="width: 100%" border="1"style="border-collapse: collapse">
-  <tr>
-  	<th>Id</th>
-    <th>Mã đơn hàng</th>
-    <th>Tên khách hàng</th>
-    <th>Địa chỉ</th>
-    <th>Email</th>
-    <th>Số điện thoại</th>
-    <th>Tình trạng</th>
-    <th>Quản lý</th>
+<h2> Danh sách đơn hàng</h2>
+<table  class="" style="width: 100%" border="1"style="border-collapse: collapse;text-align:center;">
+  <tr class="btn-default" style="height:40px;">
+  	<th style="text-align:center;">Id</th>
+    <th style="text-align:center;">Mã đơn hàng</th>
+    <th style="text-align:center;">Tên khách hàng</th>
+    <th style="text-align:center;">Địa chỉ</th>
+    <th style="text-align:center;">Email</th>
+    <th style="text-align:center;">Số điện thoại</th>
+    <th style="text-align:center;">Tình trạng</th>
+    <th style="text-align:center;">Quản lý</th>
+    <th style="text-align:center;">In</th>
   </tr>
   <?php
   $i=0;
@@ -36,6 +37,9 @@ $query_lietke_dh=mysqli_query($mysqli,$sql_lietke_dh);
     </td>
     <td>
        <a href="sanpham.php?action=donhang&query=xemdonhang&code=<?php echo $row['code_cart']?>">Xem đơn hàng</a>
+    </td>
+    <td>
+       <a href="modules/quanlydonhang/indonhang.php?code=<?php echo $row['code_cart']?>">In đơn hàng</a>
     </td>
   </tr>
   <?php

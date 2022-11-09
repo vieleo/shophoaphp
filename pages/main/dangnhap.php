@@ -15,7 +15,7 @@
 		//	header("Location:login.php");
 		//}
 		//tạo kết nối với database
-                $connect = new mysqli("localhost:3307", "root", "","web_cnpm");
+                $connect = new mysqli("localhost:3306", "root", "","web_cnpm");
                 //cho phép PHP lưu unicode (utf8) - database
                 mysqli_set_charset($connect, "utf8");
                 //kiểm tra kết nối có thành công không

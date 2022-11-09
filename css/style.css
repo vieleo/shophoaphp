@@ -79,7 +79,7 @@ ul.list_menu li:hover{
 }*/
 #main{
 	height: 400px;
-	width: 100%;
+	width: 315%;
     padding-top: 122px;
 }
 .sidebar {
@@ -87,7 +87,7 @@ ul.list_menu li:hover{
     width: 14%;
     margin-top: 5px;
     margin-left: 5px;
-    position: fixed;
+    /*position: fixed;*/
     float: left;
 }
 ul.list_sidebar{
@@ -111,7 +111,7 @@ ul.list_sidebar li a{
 	color: 	 black;
 	display: block;
     height: 27px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 10px;
     font-size: 17px;
     background: bisque;
@@ -128,8 +128,8 @@ ul.list_sidebar li:hover{
 	/*background: burlywood ;*/
 }
 .maincontent {
-    height: 960px;
-    width: 73.58%;
+    /*height: 960px;*/
+    width: 72%;
     float: right;
     margin: auto;
     position: absolute;
@@ -139,10 +139,10 @@ ul.list_sidebar li:hover{
 ul.product_list {
     padding: 0;
     margin: 0;
-    width: 100%;
+    width: 1197px;
 }
 ul.product_list li {
-    width: 26%;
+    width: 292.5px;
     border: 1px solid;
     margin: 5px;
     height: 387px;
@@ -187,8 +187,8 @@ p.footer_copyright {
 .icon_buy {
     position: absolute;
     margin-left: 245px;
-    margin-top: 66px;
-    padding-top: 14px;
+    margin-top: 85px;
+    padding-top: 0px;
     text-align: center;
     background: #fff;
     border-radius: 100px;
@@ -231,14 +231,14 @@ ul.product_list img {
     border-radius: 16px;
 }
 input.search_tk {
-   font-size: 17px;
+    font-size: 17px;
     position: absolute;
     border-radius: 43px;
     font-weight: 700;
-    background: lightblue;
+    background: #fff;
     margin-left: -41px;
     border: none;
-    margin-top: -5px;
+    margin-top: -6px;
     height: 39px;
 }
 input.form_tk {
@@ -333,7 +333,7 @@ li.hotline a:hover {
 /* Tabs */
 .tabs {
   width: 100%;
-  background-color: #09F;
+  background-color: darkslategrey;
   border-radius: 5px 5px 5px 5px;
 }
 ul#tabs-nav {
@@ -354,15 +354,16 @@ ul#tabs-nav li {
 }
 ul#tabs-nav li:hover,
 ul#tabs-nav li.active {
-  background-color: #08E;
+  background-color: aquamarine;
+  color: black;
 }
 #tabs-nav li a {
   text-decoration: none;
-  color: #FFF;
+  color: black;
 }
 .tab-content {
   padding: 10px;
-  border: 5px solid #09F;
+  border: 1px solid  #ccccb3;
   background-color: #FFF;
 }
 

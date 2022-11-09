@@ -10,11 +10,11 @@
 	}else{
 		$begin = ($page*3)-3;
 	}
-  $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE  tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC LIMIT $begin,15";
+  $sql_pro = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE  tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY tbl_sanpham.id_sanpham DESC LIMIT $begin,12";
    $query_pro = mysqli_query($mysqli,$sql_pro);
    
 ?>
-<h1 style="margin-left: 304px;">SẢN PHẨM MỚI NHẤT</h1>
+<h1 style="margin-left: 267px;">SẢN PHẨM MỚI NHẤT</h1>
 
 <div class="anh_nhan">
 	<img src="img/hoa/flower_string.png">
@@ -24,17 +24,18 @@
 	   	    		<?php
 	   	    		while($row= mysqli_fetch_array($query_pro)){
 	   	    		?>	
-	   	    		<li style="width:27.2%;">
+	   	    		<li style="width:306px;">
 	   	    			<img src="admincp/modules/quanlysp/uploads/<?php echo $row['hinhanh']?>" style="height: 66%; width:304.3px">
+	   	    			
 	   	    				<div class="icon_buy">
 	   	    					<i class="fas fa-cart-plus"></i>
 	   	    				</div>
 
 	   	    			<a href="sanpham.php?quanly=sanpham&id=<?php echo $row['id_sanpham']?>">
 	   	    				<p style="color: black;font-size:17px" class="title_product" title="<?php echo $row['tensanpham']?>"><?php echo $row['tensanpham']?></p>
-	   	    				<p class="price_product" style="margin-left:75px"> Giá: <?php echo number_format($row['giasanpham']).' VNĐ'?>  </p>
+	   	    				<p class="price_product" style="margin-left:75px; width:199px"> Giá: <?php echo number_format($row['giasanpham']).' VNĐ'?>  </p>
 
-	   	    				<p style="color:var(--,blue); margin-left:68px">Thể Loại: <?php echo  $row['tendanhmuc']?></p>
+	   	    				<p style="color:var(--,blue); margin-left:68px; width:200px">Thể Loại: <?php echo  $row['tendanhmuc']?></p>
 	   	    					   	    			</a>
 	   	    		</li>
 	   	    		<?php
@@ -83,3 +84,8 @@
 	   	    		?>
 
 	   	    	</ul>
+	   	    <div class="row col-lg-12 col-md-4" style="width: 139%;margin-left: -307px;">
+	   	    	<?php
+	   	    	include('pages/footer_sp.php');
+	   	        ?>
+	   	    </div>

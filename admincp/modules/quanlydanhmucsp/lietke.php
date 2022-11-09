@@ -2,12 +2,12 @@
   $sql_lietke_danhmucsp = "SELECT * FROM tbl_danhmuc ORDER BY thutu DESC";
   $query_lietke_danhmucsp = mysqli_query($mysqli, $sql_lietke_danhmucsp);
 ?>
-<p>Liệt kê danh mục sản phẩm</p>
-<table style="width: 100%" border="1" style="border-collapse: collapse;">
-  <tr>
-  	<th>Id</th>
-    <th>Tên danh mục</th>
-    <th>Quản lý</th>
+<h2>Liệt kê danh mục sản phẩm</h2>
+<table style="width: 50%" border="1" style="border-collapse: collapse;">
+  <tr class="btn-default">
+  	<th style="width:10%px;text-align:center;">Id</th>
+    <th style="width:40%px;text-align:center;">Tên danh mục</th>
+    <th style="width:10%px;text-align:center;">Quản lý</th>
   </tr>
   <?php
      $i = 0;

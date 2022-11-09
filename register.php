@@ -2,7 +2,7 @@
  function register(){
         if(!empty($_POST)){
                 $fullname = $_POST['fullname'];
-                $username = $_POST['username'];
+                $user_name = $_POST['user_name'];
                 $email = $_POST['email'];
                 $password = $_POST['password'];
                 $phone_number = $_POST['phone_number'];
@@ -18,7 +18,7 @@
                 }
 
                 /// thực hiện truy vấn dữ liệu- insert data vào database
-                $query = "INSERT INTO tbl_login(FULL_NAME, USER_NAME, PASSWORD, EMAIL, PHONE_NUMBER) VALUES ('".$fullname."', '".$username."', '".$password."', '".$email."', '".$phone_number."')";
+                $query = "INSERT INTO tbl_login(FULL_NAME,USER_NAME,PASSWORD, EMAIL, PHONE_NUMBER) VALUES ('".$fullname."','".$user_name."', '".$password."', '".$email."', '".$phone_number."')";
                 mysqli_query($connect, $query);
 
                 //ĐÓNG kết nối

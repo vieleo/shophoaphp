@@ -158,7 +158,7 @@
               <a href="#!" class="text-white"><i class="fas fa-map-marker-alt"></i> Lũng Hoà-Vĩnh Tường-Vĩnh Phúc</a>
             </li>
             <li>
-              <a href="#!" class="text-white"><i class="fas fa-envelope"></i>Email: nguyenquangviet2k1@gmail.com</a>
+              <a href="#!" class="text-white"><i class="fas fa-envelope"></i>Email: vithihuyentrang789@gmail.com</a>
             </li>
             <li>
               <a href="#!" class="text-white"><i class="fas fa-phone-alt"></i>Hotline đặt hàng: 0397636901</a>
@@ -185,7 +185,7 @@
  
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">Việt Leo</a>
+    <a class="text-white" href="https://mdbootstrap.com/">HT</a>
   </div>
  
 </footer>

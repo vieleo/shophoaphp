@@ -115,7 +115,7 @@ a.delete {
 }
 
 .product .price{
-    color: blue;
+    color: pink;
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -129,7 +129,7 @@ a.delete {
     margin: auto;
     font-weight: bolder;
     line-height: 40px;
-    font-size: 1.3rem;
+    font-size: 4 rem;
 }
 
 

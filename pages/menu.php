@@ -8,7 +8,7 @@ $query_danhmuc = mysqli_query($mysqli,$sql_danhmuc);
   	unset($_SESSION['dangky']);
   }
 ?>
-<div id="menu_top" style="background: azure;position: fixed;z-index: 10;width: 100%;height: 98px;">
+<div id="menu_top" style="background: azure;position: fixed;z-index: 10;width: 100%;height: 98px;margin-left:-14px">
 <div class="menu">
 	   	    <ul class="list_menu">
 	   	    	<li><a href="index.php">Trang chủ</a></li>

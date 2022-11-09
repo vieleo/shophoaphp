@@ -17,16 +17,15 @@
     width: 14%;
     margin-top: 5px;
     margin-left: 5px;
-    position: fixed;
+    /*position: fixed;*/
     float: left;
 }
   </style>
 </head>
 <body>
-
 <div class="sidebar">
   <div class="title_danhmuc">
-	<h3 style="padding-left: 10px; padding-top: 11px;">Danh Mục Sản Phẩm</h3>
+	<h3 style="padding-left: 10px; padding-top: 14px;font-size:19px">Danh Mục Sản Phẩm</h3>
   </div>
      <div class="danhsach">
 	   	    <ul class="list_sidebar">
@@ -40,7 +39,7 @@
 	   	    		<li>
                 <a href="sanpham.php?quanly=danhmucsanpham&id=<?php echo $row['id_danhmuc']?>"><i class="fas fa-plus"></i> 
               <?php
-               echo $row['tendanhmuc']
+               echo $row['tendanhmuc'];
               ?>
                  </a>
               </li>

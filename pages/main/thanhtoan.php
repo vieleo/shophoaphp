@@ -2,8 +2,8 @@
  include("../Shop_flower/admincp/config/config.php");
  $id_khachhang=$_SESSION['id_khachhang'];
  $code_order=rand(0,9999);
- $insert_cart="INSERT INTO tbl_cart(id_khachhang,code_cart,cart_status) VALUES ('".$id_khachhang."','".$code_order."',1)";
- $cart_query=mysqli_query($mysqli,$insert_cart);
+ $insert_cart=  "INSERT INTO tbl_cart(id_khachhang,code_cart,cart_status,cart_date) VALUES ($id_khachhang,$code_order,1,1)";
+ $cart_query = mysqli_query($mysqli,$insert_cart);
  if($cart_query){
  	//them gio hang chi tiet
  	foreach ($_SESSION['cart'] as $key => $value) {

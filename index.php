@@ -35,7 +35,7 @@
       background:border-box;
       
     }
-</style>
+   </style>
 
  <!--về đầu trang-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -123,7 +123,7 @@ $(document).ready(function(){
           <a href="#"><img class="lang_flag" src="images/vn.png"></a>
         </li>
         <li class="nav-item" id="cart_id">
-              <a class="nav-link" href="http://localhost/Shop_flower/sanpham.php?quanly=giohang">
+              <a class="nav-link" href="http://localhost:81/Shop_flower/sanpham.php?quanly=giohang">
                 <i class="fa fa-cart-plus" style="font-size:1.5rem">
 
                 </i>
@@ -236,50 +236,50 @@ $(document).ready(function(){
   <div class="col-md-2 col-sm-2" >
      
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=25"><img src="images/hoasinhnhat/SN01.jpg" width="200px" ></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=25"><img src="images/hoasinhnhat/SN01.jpg" width="200px" ></a>
     </div>
     <div class="titel">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=25" class="ten_TL" style="margin-left:-21px">Hoa Sinh Nhật</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=25" class="ten_TL" style="margin-left:-21px">Hoa Sinh Nhật</a>
     </div>
   </div>
   <div class="col-md-2 col-sm-2">
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=29"><img src="images/hoachiabuon/CB01.jpg"width="200px"></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=29"><img src="images/hoachiabuon/CB01.jpg"width="200px"></a>
     </div>
     <div class="titel" style="margin-left:11%">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=29" class="ten_TL" >Hoa Chia Buồn</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=29" class="ten_TL" >Hoa Chia Buồn</a>
     </div>
   </div>
   <div class="col-md-2 col-sm-2">
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=30"><img src="images/hoalan/lan01.jpg"width="200px"></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=30"><img src="images/hoalan/lan01.jpg"width="200px"></a>
     </div>
     <div class="titel">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=30" class="ten_TL" style="margin-left: 13px;">Hoa Lan</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=30" class="ten_TL" style="margin-left: 13px;">Hoa Lan</a>
     </div>
   </div>
   <div class="col-md-2 col-sm-2">
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=28"><img src="images/hoatinhyeu/TY01.jpg"width="200px"></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=28"><img src="images/hoatinhyeu/TY01.jpg"width="200px"></a>
     </div>
     <div class="titel">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=28" class="ten_TL" style="margin-left:-13px;">Hoa Tình Yêu</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=28" class="ten_TL" style="margin-left:-13px;">Hoa Tình Yêu</a>
     </div>
   </div>
   <div class="col-md-2 col-sm-2">
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=26"><img src="images/hoakhaitruong/KT1.jpg"width="200px"></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=26"><img src="images/hoakhaitruong/KT1.jpg"width="200px"></a>
     </div>
     <div class="titel">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=26" class="ten_TL" style="margin-left:-22px;">Hoa Khai Trương</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=26" class="ten_TL" style="margin-left:-22px;">Hoa Khai Trương</a>
     </div>
   </div>
   <div class="col-md-2 col-sm-2">
     <div class="category_one">
-      <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=27"><img src="images/hoacuoi/cuoi01.jpg"width="200px"></a>
+      <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=27"><img src="images/hoacuoi/cuoi01.jpg"width="200px"></a>
     </div>
     <div class="titel">
-    <a href="http://localhost/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=27" class="ten_TL" style="margin-left:10px;">Hoa Cưới</a>
+    <a href="http://localhost:81/Shop_flower/sanpham.php?quanly=danhmucsanpham&id=27" class="ten_TL" style="margin-left:10px;">Hoa Cưới</a>
     </div>
   </div>
   </div>
